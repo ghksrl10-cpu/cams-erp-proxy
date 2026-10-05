@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/login",  "destination": "/api/login" },
+    { "source": "/health", "destination": "/api/login" },
+    { "source": "/",       "destination": "/api/login" }
+  ]
+}
